@@ -1,0 +1,29 @@
+site_name: Tutoriais BioinfoX
+site_url: https://jpmslima.github.io/tutoriais
+site_author: jpmslima
+site_description: Tutoriais básicos de Bioinformática para as disciplinas da UFRN
+
+nav:
+  - Página Inicial: index.md
+  - Tutoriais Iniciais de Bioinformática: 
+    - Inicial: basic1.md
+    - Introdução a linha de comando UNIX: 101.md
+    - Manipulando dados na CLI: 102.md
+    - Introdução ao GenBank: 103.md
+    - Buscas de Similaridade: 104.md
+    - Alinhamento entre pares de sequências: 105.md
+    - Alinhamento Múltiplo de Sequências: 106-MSA.md
+    - NCBI/GenBank via CLI: 107-NCBI-CLI.md
+    - BLAST via CLI: 108-BLAST-CLI.md
+    - Comandos Básicos em SQL: 109-SQL.md
+    - Bancos de Dados de Informação Proteica: 110-BDs.md
+    - Modelagem Computacional de Proteínas: 111-Modelagem.md
+    - Primeiros Passos no MEGA: 112-MEGAX.md
+    - Navegando por Genomas: 113-Genomes.md
+
+
+theme:
+  name: readthedocs
+  highlightjs: true
+  hljs_languages:
+    - yaml
